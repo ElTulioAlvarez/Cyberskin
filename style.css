@@ -36,8 +36,13 @@ h2{
 }
 /*Principal Barra de Navegacion*/
 .logo{
-    width: 250px;
+    width: 175px;
 }
+
+.logo:hover{
+    opacity: 0.5;
+}
+
 .nav-main{
     display: flex;
     justify-content: space-between;
@@ -156,4 +161,24 @@ hr{
 .pcFix{
     clip-path: circle(50%);
     width: 50%;
+}
+
+/*Redes Sociales*/
+.social{
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 50px;
+    flex-direction: column;
+    bottom: 40%;
+    left: 10px;
+}
+
+.social a{
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.social a:hover{
+    opacity: 0.5;
 }
